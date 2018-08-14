@@ -8,16 +8,41 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Mono" rel="stylesheet">
-    <link rel="stylesheet" href="/static/css/base.css">
+    <link rel="stylesheet" href="css/base.css">
 
-    <title>{% block title %}{% endblock %}</title>
+    <title>Bonnie Schulkin | teacher | coder</title>
   </head>
   <body>
-    {% include 'nav.html' %}
 
     <div class="container main">
-      {% block body %}
-      {% endblock %}
+      <div class="body-home">
+        <div class="row">
+          <div class="col">
+            <h1>Bonnie Schulkin</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <h3 class="code">teacher | coder</h3>
+          </div>
+        </div>
+        <div class="row icons-row">
+          <div class="col">
+            <span class="icon">
+              <a target="blank" href="https://www.linkedin.com/in/bonnie-schulkin/">
+                <img src="images/linkedin.png"></a>
+            </span>
+            <span class="icon">
+              <a target="blank" href="http://github.com/flyrightsister">
+                <img src="images/github.png"></a>
+            </span>
+            <span class="icon">
+                <a target="blank" href="https://www.udemy.com/react-testing-with-jest-and-enzyme/?couponCode=REACT-TESTING-999">
+                  <img src="images/udemy.png"></a>
+            </span>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- Bootstrap JavaScript -->
